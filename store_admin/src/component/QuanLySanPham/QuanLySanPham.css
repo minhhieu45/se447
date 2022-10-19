@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
+}
+.text-controll {
+  font-family: "Open Sans", sans-serif;
+}
+.form-product {
+  width: 18%;
+  position: fixed;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.349);
+  padding: 30px 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.37);
+  border-radius: 6px;
+  height: 340px;
+}
+.text-controll::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 105%;
+  height: 2px;
+  background-color: #ff740231;
+}
+.register-button {
+  position: absolute;
+  right: 10px;
+  bottom: -0px;
+  margin: 10px 0 !important;
+  width: 80px !important;
+  padding: 10px 30px 10px 12px !important;
+  border-radius: 4px;
+  text-align: center !important;
+  outline: none !important;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  font-weight: 600 !important;
+  color: #2e7d32 !important;
+  border-color: #2e7d32 !important;
+}
+.container {
+  display: flex;
+  margin-left: 20px;
+}
+
+.products {
+  position: relative;
+  width: 70%;
+  left: 350px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-right: 20px;
+}
+.products .card {
+  justify-content: space-around;
+  width: 22%;
+  text-align: center;
+  height: max-content;
+  padding: 40px 20px 20px 20px;
+  border-radius: 6px;
+  margin-bottom: 100px;
+  box-shadow: 5px 5px 5px #2e7d327c;
+  overflow: hidden;
+}
+.products .card img {
+  width: 200px;
+  height: 100px;
+}
+.products .card:hover .button-gr {
+  top: 0px;
+}
+.button-gr {
+  margin-top: 50px;
+  position: relative;
+  top: 100px;
+  transition: 0.6s ease;
+}
+.button-gr button {
+  padding: 10px 20px;
+  text-align: center !important;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: 0.7s ease;
+}
+.button-gr .btn-delete {
+  margin: 0 10px;
+  background-color: #ed6c02;
+  color: white;
+}
+.button-gr .btn-delete:hover {
+  color: #2e7d32;
+  background-color: #fff;
+}
+.button-gr .btn-update {
+  background-color: #2e7d32;
+  color: white;
+}
+.button-gr .btn-update:hover {
+  color: #ed6c02;
+  background-color: white;
+}
+.products .card h2 {
+  margin: 20px 0;
+}
+.pagination {
+  z-index: 10000 !important;
+  display: flex !important;
+  width: 400px !important;
+  margin-left: 400px;
+  position: fixed !important;
+  right: -108px !important;
+  top: 130% !important;
+  transform: rotate(45deg) !important;
+  transition: 3s ease-in-out !important;
+}
+.activePag {
+  top: 30% !important;
+}
+.pagination li {
+  width: 100px;
+  height: 100px;
+  list-style: none;
+  margin: 0 20px;
+}
+.pagination li a {
+  color: #2e7d32;
+  padding: 40px 10px !important;
+}
+.active {
+  width: 60px !important;
+  height: 30px !important;
+  line-height: 30px !important;
+  color: white !important;
+}

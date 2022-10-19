@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Great+Vibes&family=Parisienne&display=swap");
+.left {
+  flex: 1;
+}
+.right {
+  flex: 5;
+}
+.container-children {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+.containerxxx {
+  display: flex !important;
+  justify-content: space-between !important;
+  background-color: #2e7d32;
+  transition: 1s linear;
+  z-index: 100;
+  height: 70px;
+  align-items: center;
+  padding: 0 20px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 150px;
+  align-items: center;
+}
+.menu {
+  float: right;
+}
+.logo {
+  font-size: 40px;
+  color: white;
+  letter-spacing: 2;
+  font-family: "Fleur De Leah", cursive;
+}
+.containerxxx span {
+  position: absolute;
+  font-size: 50px;
+  left: 86px;
+  top: -7px;
+  font-family: "Fleur De Leah", cursive;
+
+  color: #eea236;
+}

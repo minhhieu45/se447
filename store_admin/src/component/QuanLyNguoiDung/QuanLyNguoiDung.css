@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Zen+Kaku+Gothic+Antique&display=swap");
+.container {
+  display: flex;
+  width: 100%;
+}
+body {
+  overflow-x: hidden;
+}
+.btnxoa{
+  margin-left: 5px;
+}
+.form {
+  width: 26%;
+  position: relative;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.349);
+  padding: 30px 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.37);
+  border-radius: 6px;
+  height: 380px;
+}
+.data {
+  flex: 2;
+  height: 100%;
+}
+
+.input {
+  margin-bottom: 10px !important;
+}
+
+.success-btn {
+  margin-top: 10px !important;
+}
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  color: rgb(245, 9, 9) !important;
+  font-size: 26px !important;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.user {
+  position: absolute;
+  top: 460px;
+  display: flex;
+  width: 82%;
+  border-radius: 6px;
+  height: 380px;
+}
+.hot-customer {
+  width: 56%;
+  margin-right: 20px;
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.438);
+}
+.active-customer {
+  margin-right: 10px;
+  width: 50%;
+}
+.custommer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+.text-controll {
+  position: absolute;
+  top: -30px;
+  left: 0;
+
+  font-family: "Roboto Mono", monospace;
+}
+.active-customer h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.top-customer {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.row-username {
+  transition: 0.7s ease;
+}
+.row-username:nth-child(1) {
+  background-color: #2e7d32;
+}
+.row-username:hover {
+  background-color: #2e7d32;
+}
+.row-username {
+  font-size: 20px !important;
+}
+.row-username:nth-child(1) {
+  color: white !important;
+}
+.row-username:hover .text-row {
+  color: white !important;
+}
+.success-btn:nth-child(1) {
+  color: #1d5720 !important;
+  background-color: #fff !important;
+}
+.input {
+  color: "red" !important;
+}
+TextField {
+  color: "red" !important;
+}

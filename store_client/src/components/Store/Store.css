@@ -1,0 +1,231 @@
+* {
+  text-decoration: none !important;
+}
+.row {
+  position: absolute;
+  top: 100px;
+  padding: 10px 40px;
+  width: 100%;
+}
+.col-xs-4 {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.card button {
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  background-color: rgb(19, 167, 0);
+  color: white;
+  border-radius: 5px;
+  transition: 0.5s ease;
+}
+.card button:hover {
+  background-color: white;
+  color: rgb(19, 167, 0);
+}
+.card-img {
+  width: 40% !important;
+  height: 40% !important;
+  object-fit: contain;
+}
+.pagination {
+  display: flex;
+  width: 400px;
+  margin-left: 400px;
+  position: fixed;
+  right: -100px;
+  top: 140%;
+  transform: rotate(45deg);
+  transition: 3s ease-in-out;
+}
+li {
+  margin: 0 10px !important;
+}
+.row {
+  position: relative;
+  top: 200px;
+}
+.search-input {
+  display: flex;
+  width: 300px;
+  margin: 0 auto;
+  flex-direction: column;
+  position: fixed;
+  height: 100%;
+  padding: 100px 20px 0 30px;
+  top: 0;
+  left: 0;
+  box-shadow: 4px 4px 4px 4px #ed6c024f;
+}
+.search {
+  margin: 40px 0 50px 0;
+  position: relative;
+}
+.search-input .search input {
+  width: 100%;
+  padding: 8px 0 8px 4px;
+  outline: none;
+  border-radius: 4px;
+  border: none;
+  border-bottom: 0.4px solid rgba(0, 0, 0, 0.26);
+}
+.search span {
+  background-color: black;
+}
+.search .bottom {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 0px;
+  height: 1px;
+  transition: 0.5s ease;
+}
+.search .top {
+  position: absolute !important;
+  bottom: 0;
+  right: 0;
+  width: 0px;
+  height: 1px;
+  transition: 0.5s ease;
+  transition-delay: 0.7s;
+}
+.search .left {
+  position: absolute !important;
+  bottom: 0;
+  left: 0;
+  width: 1px;
+  height: 0px;
+  transition: 0.5s ease;
+  transition-delay: 1.1s;
+}
+.search .right {
+  position: absolute !important;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 0px;
+  transition: 0.5s ease;
+  transition-delay: 0.4s;
+}
+.search input:focus ~ .top {
+  width: 100%;
+}
+.search input:focus ~ .bottom {
+  width: 100%;
+}
+.search input:focus ~ .left {
+  height: 100%;
+}
+.search input:focus ~ .right {
+  height: 100%;
+}
+.search-input .price {
+  margin: 20px 0;
+}
+.search__icon {
+  position: absolute;
+  top: 4px;
+  font-size: 23px;
+  color: rgba(3, 3, 3, 0.541);
+  right: 10px;
+}
+.render__products {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 260px;
+}
+.card {
+  position: relative;
+  text-align: center;
+  width: 20% !important;
+  flex-wrap: wrap;
+  margin: 0 100px 200px 0;
+  border-radius: 1px solid rgba(0, 0, 0, 0.37) !important;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.301);
+  height: 480px;
+  padding: 20px 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: 0.7s ease;
+}
+.card::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 0%;
+  background-color: rgba(0, 0, 0, 0.062);
+  z-index: -2222;
+  transition: 0.4s ease-in-out;
+  border-radius: 15px 50px 30px 5px;
+}
+.card:hover::after {
+  width: 130%;
+  height: 130%;
+}
+.card:hover {
+  transform: scale(0.96) !important;
+}
+.buy__btn {
+  margin-top: 300px;
+  transition: 0.5s ease-in-out;
+  background-color: #ed6c02 !important;
+}
+.buy__btn:hover {
+  background-color: rgb(255, 251, 251) !important;
+  color: #ed6c02 !important;
+}
+.card:hover .buy__btn {
+  animation: btn 0.7s ease-in-out;
+  margin-top: 0px;
+}
+@keyframes btn {
+  0% {
+    margin-top: 300px;
+  }
+  50% {
+    margin-top: -10px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+.checkbox {
+  display: flex;
+  flex-direction: column;
+}
+.checkbox label {
+  margin: 20px 0;
+  padding-left: 70px;
+}
+.details__btn {
+  position: absolute;
+  top: 8px;
+  right: -80px;
+  transition: 0.7s ease;
+}
+.card:hover .details__btn {
+  right: 10px;
+}
+.label-danger {
+  background-color: #ed6c02 !important;
+}
+.active a {
+  background-color: #ed6c02 !important;
+  border: none;
+  outline: none;
+}
+
+.pagination li {
+  border: 1px solid #ed6c02a1 !important;
+}
+input[type="checkbox"] {
+  color: red !important;
+  font-size: 300px;
+  background-color: red;
+}

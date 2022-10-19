@@ -1,0 +1,13 @@
+.spinners {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: aquamarine;
+  width: 100%;
+  height: 100%;
+}
+.climbingBoxLoader {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+}

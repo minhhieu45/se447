@@ -1,0 +1,22 @@
+.table {
+  width: 90%;
+  position: absolute;
+  top: 100px;
+  margin: 0 100px;
+  text-align: center;
+}
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+table,
+th {
+  text-align: center;
+}
+.btn-sm {
+  display: inline-block;
+  margin: 0 auto !important;
+  border: none;
+  z-index: -111;
+}

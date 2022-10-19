@@ -1,0 +1,55 @@
+.Send {
+  background-color: #ed6c02 !important;
+  transition: 0.8 ease;
+  outline: none !important;
+  border: none;
+  position: absolute;
+  right: 19px;
+  bottom: 30px;
+}
+.Send:hover {
+  color: #ed6c02;
+  background-color: white !important;
+  border: 1px solid #ed6c02;
+}
+.Send:active {
+  background-color: #fff !important;
+}
+
+.feedback {
+  margin: 0 auto !important;
+  position: relative !important;
+  left: 150% !important;
+  top: -100px !important;
+  z-index: 109 !important;
+  background-color: rgb(255, 255, 255);
+  padding: 20px 20px;
+  border-radius: 7px;
+  height: 670px;
+  box-shadow: -5px 5px 3px 4px #ed6c025d;
+}
+.feedback__fake {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  width: 900%;
+  height: 900%;
+  background-color: #ed6c0283;
+  transform: rotate(-40deg);
+  z-index: -1 !important;
+  box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.363) !important;
+}
+.justify-content-center {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.feedback .fa-signature,
+.feedback .fa-envelope-open {
+  margin-left: 26px !important;
+}
+#subject {
+  padding-left: 30px;
+}
+.textarea {
+  height: 200px !important;
+}

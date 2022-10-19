@@ -1,0 +1,104 @@
+.profile {
+  position: relative;
+  border: 1px solid #ed6c02;
+  top: 180px;
+  width: 420px;
+  left: 40%;
+  border-radius: 6px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.356);
+  background-color: #fff;
+}
+.input__change--avt {
+  text-align: center;
+}
+.profile__content {
+  height: 700px;
+  padding: 10px 10px;
+}
+.form-group {
+  margin-bottom: -40px;
+}
+.profile__content-avt {
+  text-align: center;
+  overflow: hidden !important;
+  position: relative;
+  cursor: pointer;
+}
+.lable-text {
+  text-align: center !important;
+  width: 200px;
+  margin: 0 auto;
+  position: absolute;
+  top: 170px;
+  left: 1%;
+  /* opacity: 0; */
+  transition: 0.8s ease;
+}
+.fa-camera {
+  font-size: 24px;
+  color: #000000 !important;
+}
+.profile__content-avt:hover .lable-text {
+  opacity: 1;
+  top: 120px;
+}
+.phone {
+  margin-top: -5px;
+}
+.update-btn .warning {
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+}
+.profile__content-avt {
+  width: 150px;
+  height: 150px;
+  background-color: #ed6c02;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+.profile__content-avt img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.fake_profile {
+  position: relative;
+  top: -600px;
+  left: 360px;
+  width: 500px;
+  height: 600px;
+  z-index: -1000;
+  border-radius: 6px;
+}
+.fake_profile::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #c9ac9398;
+}
+.fake_profile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.fake_profile .text {
+  position: relative;
+  top: -600px;
+  left: 20px;
+  z-index: 1000000;
+  width: 700px;
+}
+.text h3 {
+  font-family: "Grey Qo", cursive;
+  color: #e06500d0;
+  font-size: 70px;
+}
+.mxh {
+  z-index: 100000000000000000000000;
+}

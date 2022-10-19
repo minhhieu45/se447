@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Bad+Script&family=Fleur+De+Leah&family=Grey+Qo&family=Zen+Kaku+Gothic+Antique:wght@300&family=Zen+Kaku+Gothic+New:wght@300&family=Zen+Maru+Gothic:wght@300&display=swap");
+.main {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+video {
+  width: 100% !important;
+  height: 100% !important;
+}
+.container_video {
+  position: relative;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.521);
+}
+.login,
+.register {
+  text-align: center !important;
+  color: black !important;
+  background-color: #fff;
+  width: 130px;
+  height: 43px !important;
+  line-height: 43px;
+  letter-spacing: 2px;
+  z-index: 100;
+  position: fixed;
+  top: 80%;
+  left: 43%;
+  transition: 0.5s ease !important;
+  text-decoration: none !important;
+  border-radius: 4px !important;
+}
+.login {
+  background-color: #ed6c02;
+  color: white !important ;
+}
+.register:hover {
+  background-color: #ed6c02;
+  color: white !important ;
+}
+#myElement {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  width: 300px;
+  font-size: 2.2rem;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 4px;
+  width: 40%;
+  opacity: 1;
+  z-index: 10000;
+  font-family: "Bad Script", cursive;
+}
+.intro {
+  position: absolute;
+  top: 48%;
+  left: 30%;
+  line-height: 40px;
+  color: white;
+  text-align: center;
+  z-index: 10000;
+}
+.intro h2::first-letter {
+  color: #ed6c02;
+  font-family: "Bad Script", cursive;
+  font-size: 60px;
+}
+.intro span {
+  font-size: 20px;
+}

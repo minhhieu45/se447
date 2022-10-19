@@ -1,0 +1,111 @@
+.fix-container {
+  display: flex;
+  justify-content: space-between !important;
+  position: absolute;
+  width: 80%;
+}
+.fix-container .tb {
+  position: relative;
+  width: 400px;
+  border-radius: 6px;
+  height: 150px;
+  border-radius: 1px solid black;
+  box-shadow: 10px 10px 10px rgba(24, 21, 21, 0.336);
+  font-family: "Courier New", Courier, monospace;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s ease-in;
+  text-decoration: none !important;
+  color: white;
+}
+.tb h3 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.tb h4 {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+}
+.count-member {
+  position: absolute;
+  top: 50px !important;
+  transition: 0.5s cubic-bezier(1, 0, 0, 1);
+}
+.new__member {
+  background-color: rgba(94, 17, 238, 0.644);
+}
+.total {
+  background-color: rgba(196, 9, 9, 0.774);
+}
+.contact {
+  background-color: rgb(14, 174, 202);
+}
+.tb::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: -40px;
+  width: 0%;
+  height: 0%;
+  background-color: rgba(150, 149, 151, 0.356);
+  transition: 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.tb:hover::before {
+  border-radius: 10% 30% 50% 70%;
+  width: 130%;
+  height: 110%;
+  bottom: 0px;
+  left: -40px;
+  z-index: -1;
+}
+.tb:hover {
+  color: white;
+  transform: scale(0.95);
+}
+.tb:hover .count-member {
+  background-color: white;
+  color: black;
+}
+.tb:hover .GroupAddOutlinedIcon {
+  color: rgb(255, 255, 255) !important;
+}
+.fix-container .tb .down {
+  display: flex;
+  align-items: center;
+}
+.chart {
+  width: 94%;
+  text-align: center;
+  margin: 300px auto;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.61);
+  padding-left: 100px;
+  font-family: "Courier New", Courier, monospace;
+}
+Link {
+  text-decoration: none !important;
+}
+.GroupAddOutlinedIcon {
+  margin-left: 20px;
+  font-size: 30px !important;
+  color: white !important;
+  position: absolute;
+  top: 70px;
+  left: 20px;
+}
+.count-member {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 100%;
+  top: 20px;
+  left: 70px;
+  padding: 5px 5px;
+  color: aliceblue;
+  background-color: rgba(255, 255, 255, 0.308);
+  transition: 0.6 ease;
+}

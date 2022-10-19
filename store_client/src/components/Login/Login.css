@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Grey+Qo&family=Zen+Kaku+Gothic+Antique:wght@300&family=Zen+Kaku+Gothic+New:wght@300&family=Zen+Maru+Gothic:wght@300&display=swap");
+.login__form {
+  width: 430px;
+  height: 360px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 900px;
+  padding: 10px 20px;
+  box-shadow: 5px 5px 10px 10px #ed6c0249;
+  border-radius: 6px;
+  position: relative;
+  top: -660px;
+}
+.login__form input {
+  margin-bottom: -40px !important;
+}
+.all {
+  width: 100%;
+  height: 300px !important;
+}
+
+.login__form label {
+  color: #ed6c02;
+}
+.form-group {
+  position: relative !important;
+}
+.form-group i {
+  position: absolute !important;
+  top: 36px !important;
+  left: 360px !important;
+}
+.fa-phone-volume {
+  margin-top: 11px;
+}
+.login__form legend {
+  color: #ed6c02 !important;
+}
+.login__form option {
+  color: #ed6c02 !important;
+}
+.after {
+  position: relative;
+}
+.after::after {
+  position: absolute;
+  top: 0;
+  content: "";
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.658);
+}
+.login__form::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.img {
+  position: fixed;
+  top: 100px;
+  left: 460px;
+  width: 480px;
+  height: 600px;
+  border-radius: 7px;
+}
+.img img {
+  border-radius: 7px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.img::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  padding: 70px;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  z-index: 10000;
+  background-color: #c9ac9398;
+}
+.img .text {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1000000;
+  width: 700px;
+}
+.text h3 {
+  font-family: "Grey Qo", cursive;
+  color: #e06500d0;
+  font-size: 70px;
+}
+.text span {
+  position: relative;
+  color: white;
+  font-size: 20px;
+  top: 70px;
+  left: 30px;
+  width: 400px;
+}
+.mxh {
+  position: absolute;
+  top: 520px;
+  left: 15%;
+  display: flex;
+  align-items: center;
+}
+.mxh i {
+  margin-right: 10px;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+  z-index: 100000;
+  cursor: pointer;
+  color: #e06500d0;
+  transition: 0.3s ease-in-out;
+}
+.mxh i:hover {
+  background-color: #e06500d0;
+  color: white;
+  margin-bottom: 20px;
+}
+.btn-login {
+  display: inline-block;
+  margin: 50px 0 0 313px;
+  color: #fff !important;
+  background-color: #fff;
+  border-color: #ed6c02;
+  transition: 0.6s ease;
+  padding: 8px 23px !important;
+  outline: none;
+  border: none;
+  border-radius: 6px !important;
+  background-color: #ed6c02;
+}
+.btn-login:hover {
+  color: #ed6c02 !important;
+  background-color: #fff;
+}
+.login__form {
+  position: fixed !important;
+  z-index: 100000000000000000;
+  top: 400px;
+  left: 0;
+}
+.dangnhap {
+  position: absolute;
+  bottom: 30px;
+}
